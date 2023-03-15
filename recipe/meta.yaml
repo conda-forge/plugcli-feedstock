@@ -1,5 +1,5 @@
 {% set name = "plugcli" %}
-{% set version = "0.0.1" %}
+{% set version = "0.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/plugcli-{{ version }}.tar.gz
-  sha256: 412e86c38a763fb93b76d78c3b2e0c34e21c375b6cd40d16c353bb07a086f27d
+  sha256: d5eaa9956423eae5903095c4cdfbf2a38b9f96da3ff7c6e9f489177b79c18473
 
 build:
   number: 0
